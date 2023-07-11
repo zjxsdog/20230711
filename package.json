@@ -1,0 +1,23 @@
+{
+  "name": "chp-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "author": "lx",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.8",
+    "@babel/preset-env": "^7.22.7",
+    "@babel/preset-react": "^7.22.5",
+    "rollup": "^3.26.2",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
